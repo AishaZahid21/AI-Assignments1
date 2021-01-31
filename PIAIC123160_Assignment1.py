@@ -89,7 +89,8 @@ a[::-1]
 # 12. Create a null vector of size 10 but the fifth value which is 1 
 
 # %%
-
+arr=np.arange(10)
+np.where(arr==5,1,arr)
 
 # %% [markdown]
 # 13. Create a 3x3 identity matrix
